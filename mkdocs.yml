@@ -20,6 +20,8 @@ theme:
   - search.suggest
   - content.code.annotate
 
+  custom_dir: overrides
+  
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: slate
@@ -60,7 +62,7 @@ nav:
   - "历史":
     # - "TODO：概述": 历史/TODO：概述.md
     - "红色工程师的崛起 - 安舟" : 历史/红色工程师的崛起 - 安舟.md
-    - "（转载）文革史书单" : 历史/(转载)文革史书单.md
+    - "（转载）文革史书单" : 历史/（转载）文革史书单.md
 
 plugins:
   - search:
@@ -70,7 +72,7 @@ plugins:
   - git-revision-date
   - minify:
       minify_html: true
-  - open-in-new-tab:
+  # - open-in-new-tab:
 
 extra:
   social:
